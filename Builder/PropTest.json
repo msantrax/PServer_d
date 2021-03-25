@@ -1,0 +1,22 @@
+{
+    "childrens": [
+        "BuildPressure",
+        "CalcP0"
+    ],
+    "classname": "PropTest",
+    "defaultbody": "#prev",
+    "imports": "",
+    "initvars": [
+        "owner|:str",
+        "index|int"
+    ],
+    "loadbody": "#prev",
+    "package": "Entities.",
+    "parsebody": "#prev",
+    "classbody": "#segment",
+    "props": [
+        "init_ts:int",
+        "end_ts:int",
+        "test1:float"
+    ]
+}

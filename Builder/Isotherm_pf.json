@@ -1,0 +1,20 @@
+{
+    "childrens": [
+    ],
+    "classname": "Isotherm_pf",
+    "defaultbody": "#segment",
+    "imports": "!",
+    "initvars": [
+        "owner|'instance' ! owner|String|instance",
+        "index|int(0) ! index|Integer|0",
+        "parent|util.getID() ! parent|Long|0L"
+    ],
+    "loadbody": "#segment",
+    "package": "Entities. ! Entities",
+    "parsebody": "#segment",
+    "classbody": "#segment",
+    "props": [
+        "build_strat:'' ! build_strat|String|unloaded||false|",
+        "stab_strat:'' ! stab_strat|String|unloaded||false|"
+    ]
+}

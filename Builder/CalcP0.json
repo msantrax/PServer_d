@@ -1,0 +1,33 @@
+{
+    "childrens": [
+        "BuildPressure"
+    ],
+    "classname": "CalcP0",
+    "defaultbody": "#segment",
+    "imports": "",
+    "initvars": [
+        "owner|:str",
+        "index|int"
+    ],
+    "loadbody": "#segment",
+    "package": "Entities.",
+    "parsebody": "#segment",
+    "classbody": "#segment",
+    "props": [
+        "init_ts:int()",
+        "end_ts:int()",
+        "initstab_ts:int()",
+        "tstamps:list()",
+        "values:list()",
+        "endstab_ts:int()",
+        "stab_var_1:float()",
+        "stab_var_2:float()",
+        "stab_var_3:float()",
+        "stab_time:float()",
+        "charge_pressure:float()",
+        "amb_pressure:float()",
+        "delta_p:float()",
+        "P0_offset:float(10.0)",
+        "calc_p0:float()"
+    ]
+}

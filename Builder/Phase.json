@@ -1,0 +1,37 @@
+{
+    "childrens": [
+    ],
+    "classname": "Phase",
+    "defaultbody": "#segment",
+    "imports": "!",
+    "initvars": [
+        "owner|'instance' ! owner|String|instance",
+        "index|int(0) ! index|Integer|0",
+        "parent|util.getID() ! parent|Long|0L"
+    ],
+    "loadbody": "#segment",
+    "package": "Entities. ! Entities",
+    "parsebody": "#segment",
+    "classbody": "#segment",
+    "props": [
+
+        "phase_type:int(0)  ! iso_status|Integer|0||false|",
+        "p0:float(756.987)  ! p0|Double|0.0||false|",
+        "recal_a0:float(-64000) ! recal_a0|Double|0.0||false|",
+        "recal_a1:float(1.091954E-03) ! recal_a1|Double|1.0||false|",
+
+        "poly1_a0:float(0) ! poly1_a0|Double|0.0||false|",
+        "poly1_a1:float(1) ! poly1_a1|Double|0.0||false|",
+        "poly1_a2:float(0) ! poly1_a2|Double|0.0||false|",
+        "poly1_a3:float(0) ! poly1_a3|Double|0.0||false|",
+
+        "poly2_a0:float(0) ! poly2_a0|Double|0.0||false|",
+        "poly2_a1:float(1) ! poly2_a1|Double|0.0||false|",
+        "poly2_a2:float(0) ! poly2_a2|Double|0.0||false|",
+        "poly2_a3:float(0) ! poly2_a3|Double|0.0||false|",
+
+        "xaxis:list() ! xaxis|ArrayList<Double>|new ArrayList<>()||false|",
+        "yaxis:list() ! yaxis|ArrayList<Double>|new ArrayList<>()||false|"
+
+    ]
+}

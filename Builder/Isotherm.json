@@ -1,0 +1,23 @@
+{
+    "childrens": [
+        "Point|List[int] = []|points ! Point|ArrayList<Object>",
+        "Isotherm_pf ! Isotherm_pf"
+    ],
+    "classname": "Isotherm",
+    "defaultbody": "#segment",
+    "imports": "!",
+    "initvars": [
+        "owner|'instance' ! owner|String|instance",
+        "index|int(0) ! index|Integer|0",
+        "parent|util.getID() ! parent|Long|0L"
+    ],
+    "loadbody": "#segment",
+    "package": "Entities. ! Entities",
+    "parsebody": "#segment",
+    "classbody": "#segment",
+    "props": [
+        "iso_num:int(0) ! iso_num|Integer|8857|it_iso_num|false|CALLSTATE1",
+        "iso_status:'' ! iso_status|String|unloaded||false|"
+
+    ]
+}

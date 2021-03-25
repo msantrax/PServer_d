@@ -1,0 +1,25 @@
+{
+    "childrens": [
+        "BuildPressure_pf"
+    ],
+    "classname": "BuildPressure",
+    "defaultbody": "#segment",
+    "imports": "",
+    "initvars": [
+        "owner|:str"
+    ],
+    "loadbody": "#segment",
+    "package": "Entities.",
+    "parsebody": "#segment",
+    "classbody": "#segment",
+    "props": [
+        "init_ts:int()",
+        "end_ts:int()",
+        "tstamps:list()",
+        "values:list()",
+        "param1:float()",
+        "param2:float()",
+        "param3:float()"
+
+    ]
+}

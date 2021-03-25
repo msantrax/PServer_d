@@ -1,0 +1,47 @@
+editfile
+loadurl http://opus-ciencia.com.br
+editfile ./history.txt
+cls
+load_script ./script1.txt
+edit_page ./script1.txt
+ask_google opus
+ask_google opus+equipamentos
+load_gsearch ./google1.json
+eval file=./teste output='teste 2' o2=teste4
+eval term='opus+ciencia' id=[term]_[tstamp]_[index] num=30 merge=on outfile='/Bascon/Anfitria/Scrap/gsearchlog_[term]_[index]' index=20
+eval term='opus+ciencia' id=[term][tstamp] num=30 merge=on outfile='/Bascon/Anfitria/Scrap/temp1file$term' index=20
+eval term='opus+ciencia' id=[term][tstamp] num=30 merge=on outfile='/Bascon/Anfitria/Scrap/temp1file[term]' index=20
+gsearch fromfile='./gqueries/2302170346_opus+equipamentos'
+gsearch terms='opus+ciencia'
+gsearch fromfile='./gqueries/brasshop.json'
+soup url='opus-ciencia.com.br'
+
+soup url='https://www.omelhordobras.com.br/buscando_ruas.asp?page=2&order=&nome=Rua%20Ministro%20firmino%20Whitaker'
+soup url='https://www.omelhordobras.com.br/buscando_ruas.asp?page=3&order=&nome=Rua%20Ministro%20firmino%20Whitaker'
+soup file='2502215346.html'
+bindtor
+unbindtor
+soup url='https:www.omelhordobras.com.br/buscando_ruas.asp?page=7&order=&nome=Rua%20Ministro%20firmino%20Whitaker' driver='p'
+soup url='teste%2'
+soup url='https://www.omelhordobras.com.br/buscando_ruas.asp?page=7&order=&nome=Rua%20Ministro%20firmino%20Whitaker'
+doscript
+showip
+timer set=100000
+soup url='https://www.omelhordobras.com.br/ruas.asp' outfile='./pages/melhor_ruas.html'
+soup url='https://api.whatsapp.com/send?phone=5511970484307&text=Ola!%20Quer%20vender%20muito%20mais%20?%20Visite%20http://anfitria.club#'
+quit
+reset
+info
+timer
+exit
+eval 1 2 3
+timer 5
+timer set=1000
+exec
+clear
+LOADPOINTS
+QUIT
+ldxf
+INFO
+bksetsource '/Bascon/Books'
+loadlog '/Bascon/ASVP/Research/analise1.log' true

@@ -1,0 +1,22 @@
+{
+    "childrens": [
+
+    ],
+    "classname": "BuildPressure_pf",
+    "defaultbody": "#segment",
+    "imports": "",
+    "initvars": [
+        "owner|:str"
+    ],
+    "loadbody": "#segment",
+    "package": "Entities.",
+    "parsebody": "#segment",
+    "classbody": "#segment",
+    "props": [
+        "max_time:int()",
+        "param1:float()",
+        "param2:float()",
+        "param3:float()"
+
+    ]
+}

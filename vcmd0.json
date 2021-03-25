@@ -1,0 +1,24 @@
+{
+  "head" :
+    "context": "new",
+    "uid" : 1234567890,
+    "ack" : false,
+    "recipient" : "TOPO",
+    "payload_type" : "cmds"
+ 
+  "payload" : [
+    {
+      "verb" : "fdxf",
+      "params" : "/Bascon/Sidharta"
+    },
+
+    {
+      "verb" : "quit",
+      "params" : ""
+    }
+
+
+  ]
+
+
+}

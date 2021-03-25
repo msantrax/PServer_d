@@ -1,0 +1,39 @@
+{
+    "childrens": [
+        "Dose_pf ! Dose_pf",
+        "buildp_phase:Phase ! Phase||buildp_phase",
+        "stabinit_phase:Phase ! Phase||stabinit_phase",
+        "stabend_phase:Phase ! Phase||stabend_phase"
+    ],
+    "classname": "Dose",
+    "defaultbody": "#segment",
+    "imports": "!",
+    "initvars": [
+        "owner|'instance' ! owner|String|instance",
+        "index|int(0) ! index|Integer|0",
+        "parent|util.getID() ! parent|Long|0L"
+    ],
+    "loadbody": "#segment",
+    "package": "Entities. ! Entities",
+    "parsebody": "#segment",
+    "classbody": "#segment",
+    "props": [
+        "dose_type:int(0)  ! dose_type|Integer|0|it_dose_type|false|DOSETYPE",
+        "ach_dp:float(1.778)  ! ach_dp|Double|1.778||false|",
+        "ach_tol:float(2.795)  ! ach_tol|Double|2.795||false|",
+        "achieved:float(63.627)  ! achieved|Double|63.627||false|",
+        "target:float(61.664)  ! target|Double|61.664||false|",
+        "initialp:float(130.987)  ! initialp|Double|130.987||false|",
+        "ts_init:int(util.getID())  ! ts_init|Long|0L||false|",
+        "ts_ach:int(util.getID())  ! ts_ach|Long|0L||false|",
+        "ts_stabinit:int(util.getID())  ! ts_stabinit|Long|0L||false|",
+        "ts_stabend:int(util.getID())  ! ts_stabend|Long|0L||false|",
+        "redose:False  ! redose|Boolean|false||false|",
+        "redose_p2:float(48.997)  ! redose_p2|Double|48.997||false|",
+        "redose_time:float(33.0)  ! redose_time|Double|33.0||false|",
+        "equilibrium:False  ! equilibrium|Boolean|false||false|",
+        "equilibrium_dp:float(0)  ! equilibrium_dp|Double|0.0||false|",
+        "equilibrium_count:float(0.0)  ! equilibrium_count|Double|0.0||false|"
+
+    ]
+}
